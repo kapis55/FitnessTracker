@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EntityScan(basePackages = "pl.wsb.fitnesstracker")
 @EnableJpaRepositories(basePackages = "pl.wsb.fitnesstracker")
-@SpringBootApplication
+@SpringBootApplicationg
 public class FitnessTracker {
 
     public static void main(String[] args) {
