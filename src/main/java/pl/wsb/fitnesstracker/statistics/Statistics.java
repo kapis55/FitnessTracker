@@ -11,22 +11,21 @@ public class Statistics {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-
   @OneToOne
   @JoinColumn(name = "user_id", nullable = false, unique = true)
   private User user;
 
-  @Column(nullable = false)
+  @Column(name = "total_distance", nullable = false)
   private Double totalDistance;
 
-  @Column(nullable = false)
+  @Column(name = "total_calories", nullable = false)
   private Double totalCalories;
 
   public Statistics() {
   }
 
   public Long getId() {
-    return id; // 🔥 MUSI BYĆ
+    return id;
   }
 
   public User getUser() {
