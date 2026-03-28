@@ -15,10 +15,10 @@ public class Statistics {
   @JoinColumn(name = "user_id", nullable = false, unique = true)
   private User user;
 
-  @Column(name = "total_distance", nullable = false)
+  @Column(nullable = false)
   private Double totalDistance;
 
-  @Column(name = "total_calories", nullable = false)
+  @Column(nullable = false)
   private Double totalCalories;
 
   public Statistics() {}
