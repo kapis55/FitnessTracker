@@ -21,8 +21,7 @@ public class Statistics {
   @Column(name = "total_calories", nullable = false)
   private Double totalCalories;
 
-  public Statistics() {
-  }
+  public Statistics() {}
 
   public Long getId() {
     return id;
