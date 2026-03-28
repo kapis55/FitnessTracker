@@ -1,8 +1,7 @@
-package pl.wsb.fitnesstracker.healthmetrics;
+package pl.wsb.fitnesstracker.event;
 
 import jakarta.persistence.*;
 import pl.wsb.fitnesstracker.user.api.User;
-import pl.wsb.fitnesstracker.event.Event;
 
 @Entity(name = "HealthMetricsUserEvent")
 @Table(name = "USER_EVENT")
