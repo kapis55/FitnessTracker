@@ -3,7 +3,7 @@ package pl.wsb.fitnesstracker.statistics;
 import jakarta.persistence.*;
 import pl.wsb.fitnesstracker.user.api.User;
 
-@Entity
+@Entity(name = "StatisticsEntity")
 @Table(name = "statistics")
 public class Statistics {
 
